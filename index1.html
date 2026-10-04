@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+	<title>Sign in | MR Mecaw</title>
+	<style>body { font-family: 'DM Sans', sans-serif; } .display { font-family: 'Fraunces', serif; }</style>
+</head>
+<body class="min-h-screen bg-[#f7f5ef] text-[#17221d]">
+	<main class="grid min-h-screen lg:grid-cols-[.85fr_1.15fr]">
+		<section class="hidden bg-[#17221d] p-10 text-white lg:flex lg:flex-col lg:justify-between">
+			<a href="index.html" class="flex items-center gap-3 text-lg font-bold"><span class="flex h-9 w-9 items-center justify-center rounded-full bg-[#f26b4f]">M</span>MR Mecaw</a>
+			<div class="max-w-md"><p class="mb-5 text-sm font-bold uppercase tracking-[.18em] text-[#f2c7aa]">Welcome back</p><h1 class="display text-6xl leading-[1.02]">Keep following what moves you.</h1><p class="mt-6 leading-7 text-[#c8d3ca]">Your courses, notes, and next big idea are waiting right where you left them.</p></div>
+			<p class="text-sm text-[#94a49a]">Learn at your own pace, with people who get it.</p>
+		</section>
+		<section class="flex flex-col px-6 py-8 sm:px-12 lg:px-20">
+			<div class="flex items-center justify-between lg:justify-end"><a href="index.html" class="flex items-center gap-3 text-lg font-bold lg:hidden"><span class="flex h-9 w-9 items-center justify-center rounded-full bg-[#f26b4f] text-white">M</span>MR Mecaw</a><a href="index.html" class="text-sm font-bold text-[#53615a] hover:text-[#17221d]">&#8592; Back home</a></div>
+			<div class="mx-auto flex w-full max-w-md flex-1 flex-col justify-center py-12"><p class="text-sm font-bold uppercase tracking-[.18em] text-[#f26b4f]">Your learning space</p><h2 class="display mt-4 text-5xl leading-none">Welcome back.</h2><p class="mt-4 text-[#53615a]">Sign in to pick up where you left off.</p>
+				<form class="mt-10 space-y-5" action="profile.html" method="get">
+					<div><label for="email" class="mb-2 block text-sm font-bold">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required class="w-full rounded-xl border border-[#c8cec5] bg-white px-4 py-3.5 outline-none placeholder:text-[#94a49a] focus:border-[#f26b4f] focus:ring-2 focus:ring-[#f26b4f]/20"></div>
+					<div><div class="mb-2 flex items-center justify-between"><label for="password" class="text-sm font-bold">Password</label><a href="forgot-password.html" class="text-sm font-bold text-[#f26b4f] hover:underline">Forgot password?</a></div><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required class="w-full rounded-xl border border-[#c8cec5] bg-white px-4 py-3.5 outline-none placeholder:text-[#94a49a] focus:border-[#f26b4f] focus:ring-2 focus:ring-[#f26b4f]/20"></div>
+					<label class="flex items-center gap-3 text-sm text-[#53615a]"><input type="checkbox" name="remember" class="h-4 w-4 accent-[#f26b4f]"> Remember me</label>
+					<button type="submit" class="w-full rounded-xl bg-[#17221d] px-5 py-3.5 font-bold text-white transition hover:bg-[#304239] focus:outline-none focus:ring-2 focus:ring-[#f26b4f]/40">Sign in <span aria-hidden="true">&#8594;</span></button>
+				</form>
+				<div class="my-8 flex items-center gap-4 text-xs font-bold uppercase tracking-[.14em] text-[#94a49a]"><span class="h-px flex-1 bg-[#dfe2dc]"></span>or<span class="h-px flex-1 bg-[#dfe2dc]"></span></div>
+				<a href="google-signin.html" class="block w-full rounded-xl border border-[#c8cec5] bg-white px-5 py-3.5 text-center font-bold transition hover:border-[#17221d]">Continue with Google</a>
+				<p class="mt-8 text-center text-sm text-[#53615a]">New to MR Mecaw? <a href="index.html#community" class="font-bold text-[#f26b4f] hover:underline">Create an account</a></p>
+			</div>
+			<p class="text-center text-xs text-[#94a49a] lg:text-right">By continuing, you agree to our terms and privacy policy.</p>
+		</section>
+	</main>
+</body>
+</html>

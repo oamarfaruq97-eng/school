@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <title>Profile | MR Mecaw</title>
+  <style>body { font-family: 'DM Sans', sans-serif; } .display { font-family: 'Fraunces', serif; } .profile-photo { background-size: cover; background-position: center; }</style>
+</head>
+<body class="min-h-screen bg-[#f7f5ef] text-[#17221d]">
+  <header class="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10"><a href="index.html" class="flex items-center gap-3 text-lg font-bold tracking-tight"><span class="flex h-9 w-9 items-center justify-center rounded-full bg-[#f26b4f] text-white">M</span>MR Mecaw</a><nav class="hidden items-center gap-8 text-sm font-semibold text-[#53615a] md:flex"><a href="courses.html" class="hover:text-[#17221d]">Courses</a><a href="approach.html" class="hover:text-[#17221d]">Our approach</a><a href="community.html" class="hover:text-[#17221d]">Community</a></nav><a href="index1.html" class="rounded-full border border-[#c8cec5] px-5 py-2.5 text-sm font-bold hover:border-[#17221d] hover:bg-white">Sign out</a></header>
+  <main class="mx-auto max-w-7xl px-6 pb-20 pt-10 lg:px-10 lg:pt-16"><section class="flex flex-col justify-between gap-8 border-b border-[#dfe2dc] pb-12 sm:flex-row sm:items-end"><div><p class="text-sm font-bold uppercase tracking-[.18em] text-[#f26b4f]">Your profile</p><h1 class="display mt-4 text-5xl leading-none sm:text-6xl">Welcome back.</h1><p class="mt-4 text-lg text-[#53615a]">Keep following what moves you.</p></div><div class="flex items-center gap-4"><label for="profile-picture" class="group relative block cursor-pointer" title="Add profile picture"><div id="profile-avatar" class="profile-photo flex h-16 w-16 items-center justify-center rounded-full bg-[#f2c7aa] text-2xl font-bold transition group-hover:ring-4 group-hover:ring-[#f2c7aa]/60">MM</div><span class="absolute -bottom-2 -right-2 rounded-full bg-[#f26b4f] px-2 py-1 text-[10px] font-bold text-white shadow-sm">Add photo</span></label><input id="profile-picture" class="hidden" type="file" accept="image/*"><div><p class="font-bold">MR Mecaw learner</p><p class="text-sm text-[#53615a]">Curious since 2026</p></div></div></section><section class="grid gap-5 py-12 lg:grid-cols-[1.2fr_.8fr]"><article class="rounded-2xl bg-[#17221d] p-7 text-white sm:p-9"><div class="flex items-start justify-between"><div><p class="text-sm font-bold uppercase tracking-[.14em] text-[#f2c7aa]">Continue learning</p><h2 class="display mt-4 max-w-md text-4xl">Finding your visual voice</h2></div><span class="rounded-full bg-white/10 px-3 py-1 text-xs font-bold">42%</span></div><p class="mt-5 max-w-md leading-7 text-[#c8d3ca]">You are building a visual language that feels like your own.</p><div class="mt-8 h-2 overflow-hidden rounded-full bg-white/15"><div class="h-full w-[42%] rounded-full bg-[#f26b4f]"></div></div><a href="courses.html" class="mt-8 inline-block font-bold text-[#f2c7aa] underline underline-offset-4">Continue course &#8594;</a></article><article class="rounded-2xl bg-[#c6d6c4] p-7 sm:p-9"><p class="text-sm font-bold uppercase tracking-[.14em] text-[#53615a]">Your week</p><p class="display mt-4 text-5xl">2.5h</p><p class="mt-2 text-[#53615a]">of focused learning</p><div class="mt-8 grid grid-cols-7 items-end gap-2"><span class="h-8 rounded-t bg-[#7f9b88]"></span><span class="h-12 rounded-t bg-[#7f9b88]"></span><span class="h-6 rounded-t bg-[#7f9b88]"></span><span class="h-16 rounded-t bg-[#f26b4f]"></span><span class="h-10 rounded-t bg-[#7f9b88]"></span><span class="h-5 rounded-t bg-[#7f9b88]"></span><span class="h-8 rounded-t bg-[#7f9b88]"></span></div></article></section><section><div class="flex items-end justify-between"><div><p class="text-sm font-bold uppercase tracking-[.14em] text-[#f26b4f]">Saved for later</p><h2 class="display mt-2 text-3xl">Your collection</h2></div><a href="courses.html" class="text-sm font-bold underline decoration-[#f26b4f] underline-offset-4">Browse more &#8594;</a></div><div class="mt-6 grid gap-4 md:grid-cols-3"><article class="rounded-2xl border border-[#dfe2dc] bg-white p-6"><p class="text-sm font-bold text-[#f26b4f]">Think</p><h3 class="mt-10 text-xl font-bold">The art of asking better</h3><p class="mt-2 text-sm text-[#53615a]">12 lessons</p></article><article class="rounded-2xl border border-[#dfe2dc] bg-white p-6"><p class="text-sm font-bold text-[#f26b4f]">Live</p><h3 class="mt-10 text-xl font-bold">A slower morning</h3><p class="mt-2 text-sm text-[#53615a]">9 lessons</p></article><article class="rounded-2xl border border-dashed border-[#c8cec5] bg-transparent p-6"><p class="text-sm font-bold text-[#f26b4f]">Make space</p><h3 class="mt-10 text-xl font-bold">Find your next course</h3><a href="courses.html" class="mt-2 inline-block text-sm font-bold text-[#53615a]">Explore library &#8594;</a></article></div></section></main>
+  <footer class="border-t border-[#dfe2dc] px-6 py-8 lg:px-10"><div class="mx-auto flex max-w-7xl justify-between text-sm text-[#53615a]"><a href="index.html" class="font-bold text-[#17221d]">Back home</a><span>MR Mecaw</span></div></footer>
+  <script>
+    const pictureInput = document.getElementById('profile-picture');
+    const profileAvatar = document.getElementById('profile-avatar');
+    const profilePictureStorageKey = 'mr-mecaw-profile-picture';
+    const profileName = profileAvatar.parentElement.nextElementSibling.nextElementSibling.querySelector('p');
+    const profileDescription = profileName.nextElementSibling;
+    profileDescription.id = 'profile-description';
+    const editProfileButton = document.createElement('button');
+    const profileNameStorageKey = 'mr-mecaw-profile-name';
+    const profileDescriptionStorageKey = 'mr-mecaw-profile-description';
+    const profileAgeStorageKey = 'mr-mecaw-profile-age';
+    const profileGenderStorageKey = 'mr-mecaw-profile-gender';
+    const profileLocationStorageKey = 'mr-mecaw-profile-location';
+    const profileDetails = profileName.parentElement;
+    const profileMeta = document.createElement('p');
+    const profileEditor = document.createElement('form');
+    const profileNameInput = document.createElement('input');
+    const profileDescriptionInput = document.createElement('textarea');
+    const profileAgeInput = document.createElement('input');
+    const profileGenderInput = document.createElement('input');
+    const profileLocationInput = document.createElement('input');
+    const saveProfileButton = document.createElement('button');
+    const cancelProfileButton = document.createElement('button');
+
+    editProfileButton.type = 'button';
+    editProfileButton.textContent = 'Edit profile';
+    editProfileButton.className = 'mt-2 text-sm font-bold text-[#f26b4f] underline underline-offset-4';
+    profileName.parentElement.appendChild(editProfileButton);
+    profileMeta.className = 'mt-1 text-xs text-[#53615a]';
+    profileDetails.appendChild(profileMeta);
+
+    profileEditor.className = 'mt-4 hidden space-y-2';
+    profileNameInput.type = 'text';
+    profileNameInput.required = true;
+    profileNameInput.className = 'w-full rounded-lg border border-[#c8cec5] bg-white px-3 py-2 text-sm';
+    profileDescriptionInput.rows = 2;
+    profileDescriptionInput.required = true;
+    profileDescriptionInput.className = 'w-full rounded-lg border border-[#c8cec5] bg-white px-3 py-2 text-sm';
+    profileAgeInput.type = 'number';
+    profileAgeInput.min = '0';
+    profileAgeInput.max = '120';
+    profileAgeInput.placeholder = 'Age';
+    profileAgeInput.className = 'w-full rounded-lg border border-[#c8cec5] bg-white px-3 py-2 text-sm';
+    profileGenderInput.type = 'text';
+    profileGenderInput.placeholder = 'Gender';
+    profileGenderInput.className = 'w-full rounded-lg border border-[#c8cec5] bg-white px-3 py-2 text-sm';
+    profileLocationInput.type = 'text';
+    profileLocationInput.placeholder = 'Location';
+    profileLocationInput.className = 'w-full rounded-lg border border-[#c8cec5] bg-white px-3 py-2 text-sm';
+    saveProfileButton.type = 'submit';
+    saveProfileButton.textContent = 'Save';
+    saveProfileButton.className = 'rounded-full bg-[#f26b4f] px-4 py-2 text-xs font-bold text-white';
+    cancelProfileButton.type = 'button';
+    cancelProfileButton.textContent = 'Cancel';
+    cancelProfileButton.className = 'rounded-full border border-[#c8cec5] px-4 py-2 text-xs font-bold';
+    profileEditor.append(profileNameInput, profileDescriptionInput, profileAgeInput, profileGenderInput, profileLocationInput, saveProfileButton, cancelProfileButton);
+    profileDetails.appendChild(profileEditor);
+
+    function applyProfilePicture(dataUrl) {
+      profileAvatar.textContent = '';
+      profileAvatar.style.backgroundImage = `url('${dataUrl}')`;
+    }
+
+    const savedProfilePicture = localStorage.getItem(profilePictureStorageKey);
+    if (savedProfilePicture) applyProfilePicture(savedProfilePicture);
+
+    const savedProfileName = localStorage.getItem(profileNameStorageKey);
+    if (savedProfileName) profileName.textContent = savedProfileName;
+
+    const savedProfileDescription = localStorage.getItem(profileDescriptionStorageKey);
+    if (savedProfileDescription) profileDescription.textContent = savedProfileDescription;
+
+    let savedProfileAge = localStorage.getItem(profileAgeStorageKey) || '';
+    let savedProfileGender = localStorage.getItem(profileGenderStorageKey) || '';
+    let savedProfileLocation = localStorage.getItem(profileLocationStorageKey) || '';
+
+    function updateProfileMeta() {
+      profileMeta.textContent = [savedProfileAge, savedProfileGender, savedProfileLocation].filter(Boolean).join(' · ');
+      profileMeta.classList.toggle('hidden', !profileMeta.textContent);
+    }
+
+    updateProfileMeta();
+
+    editProfileButton.addEventListener('click', () => {
+      profileNameInput.value = profileName.textContent;
+      profileDescriptionInput.value = profileDescription.textContent;
+      profileAgeInput.value = savedProfileAge;
+      profileGenderInput.value = savedProfileGender;
+      profileLocationInput.value = savedProfileLocation;
+      profileEditor.classList.remove('hidden');
+      editProfileButton.classList.add('hidden');
+      profileNameInput.focus();
+    });
+
+    profileEditor.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const updatedName = profileNameInput.value.trim();
+      const updatedDescription = profileDescriptionInput.value.trim();
+      if (!updatedName || !updatedDescription) return;
+      const updatedAge = profileAgeInput.value.trim();
+      const updatedGender = profileGenderInput.value.trim();
+      const updatedLocation = profileLocationInput.value.trim();
+
+      profileName.textContent = updatedName;
+      profileDescription.textContent = updatedDescription;
+      savedProfileAge = updatedAge;
+      savedProfileGender = updatedGender;
+      savedProfileLocation = updatedLocation;
+      localStorage.setItem(profileNameStorageKey, updatedName);
+      localStorage.setItem(profileDescriptionStorageKey, updatedDescription);
+      localStorage.setItem(profileAgeStorageKey, updatedAge);
+      localStorage.setItem(profileGenderStorageKey, updatedGender);
+      localStorage.setItem(profileLocationStorageKey, updatedLocation);
+      updateProfileMeta();
+      profileEditor.classList.add('hidden');
+      editProfileButton.classList.remove('hidden');
+    });
+
+    cancelProfileButton.addEventListener('click', () => {
+      profileEditor.classList.add('hidden');
+      editProfileButton.classList.remove('hidden');
+    });
+
+    pictureInput.addEventListener('change', () => {
+      const file = pictureInput.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.addEventListener('load', () => {
+        localStorage.setItem(profilePictureStorageKey, reader.result);
+        applyProfilePicture(reader.result);
+      });
+      reader.readAsDataURL(file);
+    });
+  </script>
+</body>
+</html>
